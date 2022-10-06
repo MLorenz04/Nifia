@@ -1,0 +1,22 @@
+.loader {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#2f2f36;
+    top:0;
+    left:0;
+}
+
+.loadingSquare {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.square {
+    width:50px;
+    height:50px;
+    border:4px solid white;
+    animation: makeCuteAnimationSquareUwU 4s linear infinite;
+}

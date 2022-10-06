@@ -1,0 +1,103 @@
+.profile {
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.username {
+    width:100%;
+    text-align:center;
+    display:flex;
+}
+
+.profileContent {
+width:calc(100% - 250px);
+}
+.profileAside {
+    width:250px;
+    padding-top:30px;
+    border-left:1px solid black;
+}
+.profileInfo {
+padding-left:1rem;
+}
+.profileSetting {
+    width:100px;
+}
+.profileUsername {
+    width:calc(100% - 100px);
+}
+.profileFormContainer {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.profileInfo {
+    min-height:2rem;
+    min-width:7rem;
+    max-width:15rem;
+    max-height:15rem;
+}
+
+.profileSettings {
+    padding:2rem;
+    border-radius:1rem;
+    border:1px solid white
+}
+
+#profilePic {
+    width:5rem;
+    height:5rem;
+    border-radius:2.5rem;
+    margin:auto;
+}
+.imageContainer {
+    width:calc(100% - 100px);
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.contributionContainerProfile {
+    width:40%;
+    margin:2rem auto 2rem;
+    text-align:center;
+    box-shadow: 1px 1px 21px 1px gray;
+    padding:1rem 0 2rem;
+    border-radius:1rem;
+    height: min-content;
+}
+.marginTopSettings {
+    margin-top:1rem;
+}
+.userContent {
+    margin-right:100px;
+}
+
+.homepageContainer {
+    width:calc(100% - 250px);
+}
+.contributionContent {
+    overflow:hidden;
+}
+.contributionContainer {
+    margin:auto;
+}
+
+.title {
+    font-size:2.5rem;
+}
+pre {
+    font-size:1.1rem;
+    min-width:350px;
+}
+.poemsCollection {
+    margin:1rem;
+}
+.poemscollection > h3 {
+    text-align:center;
+}
+.collection {
+    width:150px;
+}

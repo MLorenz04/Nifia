@@ -1,0 +1,25 @@
+.container-header {
+    display:flex;
+    height:80px;
+    border-bottom:1px solid rgb(213, 208, 208);
+    width:100%;
+    justify-content: center;
+}
+
+.container-header__item {
+    width:120px;
+    text-align:center;
+}
+.container-header-items {
+    display:flex;
+    justify-content: space-evenly;
+    width:40%;
+    align-items:center;
+}
+a {
+    color:rgb(213, 208, 208);
+    text-decoration: none;
+}
+.link {
+    font-size:1.2rem;
+}
