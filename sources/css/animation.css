@@ -1,0 +1,23 @@
+@keyframes makeCuteAnimationSquareUwU {
+    0% {
+        transform: rotateZ(0deg);
+        background-color:transparent;
+        
+    }
+    25% {
+        transform: rotateZ(90deg);
+        background-color:white;
+    }
+    50% {
+        transform: rotateZ(180deg);
+        background-color:transparent;
+    }
+    75% {
+        transform: rotateZ(270deg);
+        background-color:white;
+    }
+    100% {
+        transform: rotateZ(360deg);
+        background-color:transparent;
+    }
+}
